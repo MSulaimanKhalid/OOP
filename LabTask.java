@@ -8,6 +8,8 @@ public class LabTask{
 		short s=123;
 		int i=21;
 		long l=321123;
+		float f=10.0f;
+		double d=1000.000;
 		char c='c';
 		String str="Full marks de dain SIR!";
 		boolean bool=true;
@@ -15,6 +17,8 @@ public class LabTask{
 		System.out.printf("value of short: %d\n",s);
 		System.out.printf("value of int: %d\n",i);
 		System.out.printf("value of long: %d\n",l);
+		System.out.printf("value of float: %f\n",f);
+		System.out.printf("value of double: %f\n",d);
 		System.out.printf("value of char: %c\n",c);
 		System.out.printf("value of string: %s\n",str);
 		System.out.printf("value of boolean: %b\n",bool);
@@ -27,6 +31,10 @@ public class LabTask{
 		i=input.nextInt();
 		System.out.print("Enter value of long: ");
 		l=input.nextLong();
+		System.out.print("Enter value of float: ");
+		f=input.nextFloat();
+		System.out.print("Enter value of double: ");
+		d=input.nextDouble();
 		System.out.print("Enter char: ");
 		c=input.next().charAt(0);
 		System.out.print("Enter string(one word): ");
@@ -40,6 +48,8 @@ public class LabTask{
 		System.out.printf("value of short: %d\n",s);
 		System.out.printf("value of int: %d\n",i);
 		System.out.printf("value of long: %d\n",l);
+		System.out.printf("value of float: %f\n",f);
+		System.out.printf("value of double: %f\n",d);
 		System.out.printf("value of char: %c\n",c);
 		System.out.printf("value of string(one word): %s\n",str);
 		System.out.printf("value of string(multiple words): %s\n",str1);
